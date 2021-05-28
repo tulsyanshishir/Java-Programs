@@ -19,9 +19,9 @@ public class medianOfTwoSortedArray {
 	          if(mergeLength%2==0){
 	        	  System.out.println(mergeLength);
 	              int index = (mergeLength-1)/2;
-	              System.out.println(index);
-	              System.out.println(merge[index]);
-	              System.out.println(merge[index+1]);              
+	              //System.out.println(index);
+	              //System.out.println(merge[index]);
+	              //System.out.println(merge[index+1]);              
 	              return (merge[index]+merge[index+1])/(double)2 ;
 	          }
 	            
