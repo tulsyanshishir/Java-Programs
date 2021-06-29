@@ -1,4 +1,4 @@
-package AbstractFactory;
+
 
 public class palindromeInteger {
 	

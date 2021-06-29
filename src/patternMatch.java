@@ -7,7 +7,7 @@ public class patternMatch {
 	        if(p==".*") return true;
 	        Map<Character,Integer> s1 = charMap(s);
 	        Map<Character,Integer> p1 = charMap(p);
-	        if(s1.size()<p1.size()) return false;
+	        //if(s1.size()<p1.size()) return false;
 	        char key;
             boolean match = true;
 	        for(Map.Entry<Character,Integer> me : s1.entrySet() ) {
@@ -67,7 +67,8 @@ public class patternMatch {
 	}
 	public static void main(String[] args) {
 		
-		boolean isMatch = isMatch("mississippi","mis*is*p*");
+		//boolean isMatch = isMatch("mississippi","mis*is*p*");
+		boolean isMatch = isMatch("aab","c*a*b*");
 		System.out.println(isMatch);
 		
 	}

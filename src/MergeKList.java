@@ -3,7 +3,7 @@ import java.util.*;
 //  Definition for singly-linked list.
 
  
-public class Solution {
+public class MergeKList {
     private  static Node mergeKLists(Node[] lists) {
         
     	PriorityQueue<Node> q = new PriorityQueue<Node>((o1,o2)->o1.data-o2.data);

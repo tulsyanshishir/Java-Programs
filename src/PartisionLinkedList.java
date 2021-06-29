@@ -54,7 +54,7 @@ public class PartisionLinkedList {
 		System.out.print(" ");
 		node = nl.head;
 		
-		Node partitioned = partition(node,3);
+		Node partitioned = partition(node,7);
 		
 		while(partitioned != null) {
 			System.out.print(partitioned.data + " ");
