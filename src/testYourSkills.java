@@ -7,6 +7,6 @@ public class testYourSkills {
 		byte b1 = 42;
 		byte b2 = 24;
 		byte b3 = (byte) (b1+b2);
-		
+		System.out.println(b3);
 	}
 }
